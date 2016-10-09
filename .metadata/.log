@@ -724,3 +724,8 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 137
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-10-08 20:51:25.309
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 2 2 2016-10-08 20:53:04.195
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-10-08 20:53:04.195
+!MESSAGE The project description file (.project) for 'Servers' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
