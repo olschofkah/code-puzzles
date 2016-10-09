@@ -1,0 +1,21 @@
+INDEX VERSION 1.129+D:\dev\java\git\code-puzzles\.metadata\.plugins\org.eclipse.jdt.core
+1540523422.index
+925565441.index
+1685303040.index
+3710253408.index
+1593445944.index
+1901692022.index
+1657297594.index
+3882871751.index
+3655294911.index
+472573514.index
+3187951989.index
+2164584572.index
+2673600082.index
+418653003.index
+2811507757.index
+4034034655.index
+2332518880.index
+3101749223.index
+862677414.index
+947610090.index
