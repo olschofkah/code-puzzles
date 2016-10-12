@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -44,6 +43,23 @@ public class DataStructuresTest {
 		// printTreeHorizontal(tree);
 		System.out.println();
 		printTreeVertical(tree);
+	}
+	
+	@Test
+	public void testDeepLinkedListCopy() throws Exception {
+		LinkedListRandomNode node = new LinkedListRandomNode(1);
+		node.next = new LinkedListRandomNode(2);
+		node.next.next=new LinkedListRandomNode(3);
+		node.next.next.next=new LinkedListRandomNode(4);
+		
+		node.random = node.next.next;
+		node.next.random = node.next;		
+		node.next.next.random = node.next.next;
+		node.next.next.next.random = node;
+		
+		LinkedListRandomNode deepCopy = node.deepCopy();
+		
+		System.out.println(deepCopy);
 	}
 
 	public void printTreeNormal(TreeNode<?> node) {
